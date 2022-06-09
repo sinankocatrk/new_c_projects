@@ -20,7 +20,7 @@ sormalı(tam tersi durum içinde aynı iĢlemi yapmalı) . Eğer cevap evet ise 
 yapılmalı. Eğer hayırsa ―Diğer uçuĢ 3 saat sonra‖ yazmalı
 
 */
-int i=5;
+
 int icen(int [], int);
 int icmeyen(int [], int);
 int main()
