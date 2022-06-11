@@ -12,13 +12,8 @@ printf(" CUVV !!!! ISTE BASLADILAR !!!\n");
 
     while (flag!=0){
 
+  printf("Guncel skor tavsan: %d kaplumbaga: %d\n",x,y);
 
-    printf("Guncel skor tavsan: %d kaplumbaga: %d\n",x,y);
-
-
-
-    if(x==y)
-        printf("AH !!!\n");
 
     if(x>=10)
     {
@@ -36,6 +31,9 @@ printf(" CUVV !!!! ISTE BASLADILAR !!!\n");
     x=tav(tavp);
     y=kap(kapp);
 }
+
+    if(x==y)
+        printf("AH !!!\n");
     return 0;
     }
 
