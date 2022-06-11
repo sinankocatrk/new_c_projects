@@ -8,7 +8,7 @@ int main()
 int j=0,flag=1;
 int kapp=1,tavp=1;
 
-printf(" CUVV !!!! ISTE BASLADILAR !!!");
+printf(" CUVV !!!! ISTE BASLADILAR !!!\n");
 
     while (flag!=0){
 
