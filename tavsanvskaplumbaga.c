@@ -40,8 +40,7 @@ printf(" CUVV !!!! ISTE BASLADILAR !!!\n");
 int kap(int kapp)
 {int i;
     i = 1 +rand() % 10;
-if(kapp<=0)
-    kapp=1;
+
 
 
     if (i<6&&i>0){
@@ -60,14 +59,16 @@ if(kapp<=0)
     printf("kaplumbaga yuruyor\n");//ileri
     kapp+=1;
     }
+    if(kapp<=0)
+    kapp=1;
 
     return kapp;
 }
 
 int tav(int tavp)
 {int i;
-if(tavp<=0)
-    tavp=1;
+
+
 
     i = 1 +rand() % 10;
 
@@ -97,9 +98,9 @@ if(tavp<=0)
         printf("tavsan kucuk geri kayiyor\n");//ileri
         tavp-=2;
     }
-
+if(tavp<=0)
+    tavp=1;
 
     return tavp;
 }
-
 
